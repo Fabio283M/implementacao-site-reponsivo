@@ -8,10 +8,14 @@
     align-items: center;
 }
 
-.container__imagem, .container__frase {
-    padding: 1em;
+.container__imagem {
+   padding: 1em;
 }
 
-.container__titulo, .container__frase{
-    display: none;
+.lista-menu {
+display: none;
+}
+
+.container__botao:checked~.lista-menu {
+    display: block;
 }
